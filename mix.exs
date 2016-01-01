@@ -39,4 +39,19 @@ defmodule Gemfire.Mixfile do
        {:poolboy, "~> 1.5"}
     ]
   end
+
+  defp description do
+      """
+      Naive quick and dirty REST client for Pivotal Gemfire / Apache Geode
+      """
+    end
+
+    defp package do
+      [# These are the default files included in the package
+       files: ["lib", "config", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+       maintainers: ["Julien Marie"],
+       licenses: ["MIT"],
+       links: %{"GitHub" => "https://github.com/julienmarie/elixir-gemfire"}
+       ]
+    end
 end
