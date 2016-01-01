@@ -40,11 +40,9 @@ defmodule Gemfire.Mixfile do
     ]
   end
 
-  defp description do
-      """
+  @description """
       Naive quick and dirty REST client for Pivotal Gemfire / Apache Geode
-      """
-  end
+  """
 
   defp package do
     [
