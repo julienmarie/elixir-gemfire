@@ -1,6 +1,6 @@
 # Gemfire
 
-Super simple REST client.
+Naive quick and dirty REST client for Pivotal Gemfire / Apache Geode
 
 ## Usage
 
