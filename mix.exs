@@ -40,12 +40,15 @@ defmodule Gemfire.Mixfile do
     ]
   end
 
-  @description """
+  defp description do
+  "
       Naive quick and dirty REST client for Pivotal Gemfire / Apache Geode
-  """
+  "
+  end
 
   defp package do
     [
+    description: "Naive quick and dirty REST client for Pivotal Gemfire / Apache Geode",
      maintainers: ["Julien Marie"],
      licenses: ["MIT"],
      links: %{"Github" => "https://github.com/julienmarie/elixir-gemfire"}
